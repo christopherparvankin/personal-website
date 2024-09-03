@@ -1,0 +1,20 @@
+
+
+.footer {
+  height: 80px;
+  background-color: #3e8fcd;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+}
+
+.footer .icon {
+  font-size: 300%
+}
+.footer .button {
+  font-size: 200%;
+}
+

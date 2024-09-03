@@ -1,0 +1,35 @@
+.sbody {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-family:monospace, sans-serif;
+    color: azure;
+    background-color: #202125;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 998;
+  }
+
+  .click{
+    margin-top:8vh;
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+  }
+
+  .s_b{
+    transform: scale(1.75);
+    margin-bottom:20px;
+    transition: color .3s ease;
+  }
+
+  .s_b:hover{
+    transform: scale(1.9);
+  }
+  
+  .redSquare {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  }

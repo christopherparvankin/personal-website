@@ -1,0 +1,69 @@
+:root {
+  --nav-background-color: #202125;
+  --nav-font-color: azure;
+  --nav-font-size: 1.75vw;
+  --hover-color: #9ed8f9;
+  --icon-size:2.5vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.App .dancingShaun {
+  display: flex;
+  align-self: center;
+  width:40vw;
+  
+}
+
+.nav_wrapper {
+  height: 10vh;
+}
+
+.router_wrapper{
+  height: 90vh;
+  overflow-y: auto; 
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-container a {
+  margin: 10px 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.scroll-container a:hover {
+  color: #007bff;
+}

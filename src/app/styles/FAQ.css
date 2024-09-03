@@ -1,0 +1,43 @@
+.FAQ_body{
+
+    flex: 1;
+    background-color: #202125;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+    height: 100vh;
+    z-index: 998;
+}
+
+
+.FAQ_title{
+width: 100%;
+display: flex;
+font-size: 4.5vw;
+justify-content: center;
+margin-top: 10vh;
+margin-bottom: 5vh;
+}
+
+.question{
+display: flex;
+font-size: 1.75vw;
+font-weight:600;
+margin-top: 5vh;
+}
+.answer{
+margin-bottom: 8vh;
+display: flex;
+font-weight: 400;
+color: rgb(181, 180, 180);
+font-size: 1.7vw;
+margin-top: 2vh;
+font-style: italic;
+}

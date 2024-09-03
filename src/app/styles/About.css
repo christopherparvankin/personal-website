@@ -1,0 +1,59 @@
+.about_body{
+
+        flex: 1;
+        background-color: #202125;
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        width: 100vw;
+        font-weight: bold;
+        color: white;
+      
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+    margin-left: 16.66667%;
+    margin-right: 16.66667%;
+    height: 100vh;
+    width: 100vw;
+    font-size: 900%;
+    z-index: 998;
+  }
+  
+  
+
+  .title_row{
+    width: 100%;
+    display: flex;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: 10vh;
+  
+  }
+
+
+  .biop{
+    font-weight: 300;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+  }
+ 
+  .text_row {
+    font-size: 1.75vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    font-weight: 300;
+  }
+
+  .description{
+    position:absolute;
+    font-size: .75vw  ;
+    margin-top:33vh;
+    margin-left:2vw;
+    font-style: italic;
+    font-weight: 100;
+  }
