@@ -71,26 +71,13 @@ function Projects() {
           text={
             <div className="ptext">
               <ScrollShadow className="w-[450px] h-[200px]">
-                <div>I built this personal website with a React framework.</div>
+                <div>I built this personal website with the Next.js framework with a mix of Typescript and JavaScript</div>
                 <div style={{ marginTop: "1vw" }}>
+                  There is a corresponding backend, using an Express.js server hosted on AWS EC2 with Ubuntu, that is used for the scoreboard of Banana Bedlam.
                   This was my first time dealing with Web Development, and I had
                   a lot of fun learning in the process!
                 </div>
-                <div>I built this personal website with a React framework.</div>
-                <div style={{ marginTop: "1vw" }}>
-                  This was my first time dealing with Web Development, and I had
-                  a lot of fun learning in the process!
-                </div>{" "}
-                <div>I built this personal website with a React framework.</div>
-                <div style={{ marginTop: "1vw" }}>
-                  This was my first time dealing with Web Development, and I had
-                  a lot of fun learning in the process!
-                </div>{" "}
-                <div>I built this personal website with a React framework.</div>
-                <div style={{ marginTop: "1vw" }}>
-                  This was my first time dealing with Web Development, and I had
-                  a lot of fun learning in the process!
-                </div>
+  
               </ScrollShadow>
             </div>
           }
@@ -113,23 +100,13 @@ function Projects() {
                 </div>
 
                 <div style={{ marginTop: "1vw" }}>
-                  While I'm not at liberty to disclose the specifics, Banana
-                  Bedlam 2 will feature the original beloved cast and more.
+                  This was originally made in Python with the Pygame module, though I eventually rewrote it with Typescript and the Pixi/React library. 
                 </div>
-                <div>
-                  This is a game that I created with the Pygame module. It stars
-                  Archibald Bananapeel — the last defender against the
-                  encroaching darkness of the evil banana faction.
-                </div>
-
-                <div style={{ marginTop: "1vw" }}>
-                  While I'm not at liberty to disclose the specifics, Banana
-                  Bedlam 2 will feature the original beloved cast and more.
-                </div>
+               
               </ScrollShadow>
             </div>
           }
-          keywords={["Backend", "MongoDB", "API"]}
+          keywords={["Backend", "Typscript"]}
           github="https://github.com/example-repo"
           image={BananaBedlam}
         />
