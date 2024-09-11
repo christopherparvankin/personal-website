@@ -41,7 +41,7 @@ function Navigator() {
           <button>
           <div className="l" onClick={() => scrollToSection('fun')}>Fun</div>
           </button>
-          <Link href="https://master--bananabedlam.netlify.app/">Nanner</Link>
+          <Link href="https://bananabedlam.chrisparvankin.com">Nanner</Link>
         </div>
       </div>
       <div className='right'>
