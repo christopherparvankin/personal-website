@@ -1,22 +1,20 @@
 
-
 .nav {
-
   height:10vh;
-  background-color: var(--nav-background-color);
+  background-color: #202125;
   font-family: 'Roboto', sans-serif;
-  color: var(--nav-font-color);
+  color: whitesmoke;
   display: flex;
   align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
   font-weight: bold;
-  font-size: var(--nav-font-size);
+  font-size: 1.75vw;
   z-index: 999;
 }
 
-a {
+.l {
   color: azure;
 }
 
@@ -54,7 +52,7 @@ a {
 .nav .right .iconE:hover,
 .nav .right .iconG:hover,
 .nav .right .iconL:hover {
-  color: var(--hover-color);
+  color: #9ed8f9;
   transform: scale(1.2);
 }
 
@@ -64,7 +62,7 @@ a {
 .nav .right .iconG,
 .nav .right .iconL {
   transition: transform 0.3s ease;
-  font-size: var(--icon-size);
+  font-size: 2.5vw;
 }
 
 
@@ -78,15 +76,15 @@ a {
 }
 
 
-.middle a {
-  font-size: var(--nav-font-size);
-  color: var(--nav-font-color);
+.middle .l {
+  font-size: 1.75vw;
+  color: azure;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.nav .middle a:hover {
-  color: var(--hover-color);
+.nav .middle .l:hover {
+  color: #9ed8f9;
   transform: scale(1.15);
 }
 

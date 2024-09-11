@@ -12,7 +12,7 @@
     flex-direction: column;
     font-weight: bold;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     font-size: 900%;
     z-index: 998;
 }

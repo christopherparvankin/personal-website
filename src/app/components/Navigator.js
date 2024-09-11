@@ -1,46 +1,59 @@
+"use client";
 import React from 'react';
 import '../styles/Navigator.css';
-import k_y from '../assets/killroy.svg';
-import { Link } from 'react-router-dom';
+import { Tooltip } from "@nextui-org/react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from "next/link";
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+}
 
 function Navigator() {
-
   return (
     <div className="nav">
       <div className="left">
-  
-          <Image src={k_y} alt="dd" />
-        
+        <Tooltip showArrow={true} content="oneyay illionmay eersbay easeplay!">
+          <Image src={'/assets/killroy.svg'} alt="dd" width={40} height={40} />
+        </Tooltip>
       </div>
       <div className="middle">
         <div className='left1'> 
-        <Link to="/"> Home</Link>
-        <Link to="/about"> About</Link>
+          {/* Corrected Links without <a> tags */}
+          <button>
+            
+          <div className='l' onClick={() => scrollToSection('home')}>Home</div>
+          </button>
+          <button>
+          <div className='l' onClick={() => scrollToSection('about')}>About</div>
+          </button>
         </div>
-        
         <div className='right1'>
-        <Link to="/projects"> Projects</Link>
-        <Link to="/fun"> Fun</Link>
-        <Link to="/Game"> Nanner</Link>
-         
-
+          <button> 
+          <div className="l" onClick={() => scrollToSection('projects')}>Projects</div>
+          </button>
+          <button>
+          <div className="l" onClick={() => scrollToSection('fun')}>Fun</div>
+          </button>
+          <Link href="https://master--bananabedlam.netlify.app/">Nanner</Link>
         </div>
       </div>
       <div className='right'>
-      <Link to="https://linkedin.com/in/chrisparvankin">
-  <LinkedInIcon className="iconL" />
-</Link>
-
-<a href="mailto:christopher_parvankin@brown.edu">
-    <EmailIcon className="iconE" />
-  </a> 
-<Link to="https://github.com/christopherparvankin">
-<GitHubIcon className="iconG" />
-</Link>
+        <Link href="https://linkedin.com/in/chrisparvankin">
+          <LinkedInIcon className="iconL" />
+        </Link>
+        <a href="mailto:christopher_parvankin@brown.edu">
+          <EmailIcon className="iconE" />
+        </a> 
+        <Link href="https://github.com/christopherparvankin">
+          <GitHubIcon className="iconG" />
+        </Link>
       </div>
     </div>
   );

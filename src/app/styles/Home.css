@@ -12,11 +12,11 @@
 }
 
 .home-container {
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height:90vh;
   margin-left:16.67%;
   margin-right:16.67%;
   align-items: flex-start;
@@ -29,16 +29,18 @@
 }
 
 .grid-container {
+  
   display: grid;
   grid-template-areas: "overlap";
-  height: 90vh;
+  top:auto;
+  height: 100vh;
   position: relative; 
 }
 
 .wavy-background-container,
 .about-overlay {
   grid-area: overlap;
-  transform: translateY(-20px); /* Moves the element 20px up */
+  transform: translateY(-20px);
 }
 
 .wavy-background-container {

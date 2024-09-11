@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link, Element } from 'react-scroll';
+import React from "react";
+import { Link, Element } from "react-scroll";
 import "./styles/App.css";
 import Navigator from "./components/Navigator";
-import Projects from "./components/Projects";
+import Projects from "./projects/page";
 import Shaun from "./components/Shaun";
-import Fun from "./components/Fun";
-import Home from "./components/Home";
-import About from "./components/About";
+import Fun from "./fun/page";
+import Home from "./page";
+import About from "./about/page";
 import FAQ from "./components/FAQ";
 import WAI from "./components/WAI";
 import Game from "./BananaBedlam/components/Game";
@@ -16,10 +16,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div className='nav_wrapper'>
-          <Navigator />   
+        <div className="nav_wrapper">
+          <Navigator />
         </div>
-        <div className='router_wrapped'>
+        <div className="router_wrapped">
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/fun" exact element={<Fun />} />
