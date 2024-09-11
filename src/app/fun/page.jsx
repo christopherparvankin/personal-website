@@ -1,8 +1,7 @@
+"use client"
 import React from "react";
 import "../styles/Fun.css";
 import Link from "next/link";
-import Image from "next/image";
-import { Button } from "@nextui-org/button";
 import { BackgroundGradient } from "../components/ui/background-gradient";
 const FAQBackground = "/assets/background.jpg";
 const Outline = "/assets/AI_head.jpeg";
