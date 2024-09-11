@@ -23,6 +23,6 @@
       "@/assets/*": ["./src/app/assets/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/_app.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/_app.jsx", "src/app/about/ImageList.jsx"],
   "exclude": ["node_modules"]
 }
