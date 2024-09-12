@@ -1,8 +1,7 @@
 "use client";
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import "./styles/Home.css";
 import About from "./about/page";
-import { TracingBeam } from "./components/ui/tracing-beam";
 import Navigator from "./components/Navigator";
 import { WavyBackground } from "./components/ui/WavyBackground";
 import Projects from "./projects/page";

@@ -8,7 +8,7 @@ function WAI() {
   return (
     <div className="S_body">
     <Navigator_Reload / >
-    <div style={{marginLeft:'16.667%', marginRight:'16.667%'}}> 
+    <div style={{marginLeft:'16.667%', marginRight:'16.667%'}}>
     <div className="S_title" >
         Who Am I 
     </div>

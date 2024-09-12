@@ -1,10 +1,7 @@
 import React from "react";
 import "../styles/Projects.css";
-
-import { BackgroundGradient } from "../components/ui/background-gradient";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Link from "next/link";
-import Image from "next/image";
 import { ScrollShadow } from "@nextui-org/react";
 const BananaBedlam = "/assets/le_monke.png";
 const Maze = "/assets/maze.gif";
@@ -34,7 +31,7 @@ const Col = ({ title, col, date, text, keywords, github, image }) => {
           <img
             src={image}
             alt="rs"
-            className="im" // This will make the image automatically scale
+            className="im" 
           />
 
           {text}
